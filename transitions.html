@@ -16,16 +16,16 @@
             height: 100vh;
             display: grid;
             place-items: center;
-            background-color: green;
+            background-color: white;
         }
         .box-1{
             width: 200px;
             height: 200px;
-            background-color: blue;
-            transition: all 5s;
+            background-color: black;
+            transition: background-color 5s ease-out 2s, width 5s linear, height 5s linear, border-radius 5s linear;
             /* transition:background-color 2s, width 5s, transform 5s, border-radius 5s, height 5s ; */
             /* transition:background-color 10s ease-in, width 10s ease-in; */
-            transition-timing-function: ease-in;
+            /* transition-timing-function: ease-in; */
             /* transition-delay: 2s; */
         }
         .box-1:hover{
